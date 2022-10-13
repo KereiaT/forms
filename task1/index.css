@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+  }
+.foto {
+    weight: 600px;
+    height: 300px;
+}
+.hello {
+    display: none;
+}
+.form_registrration {
+    
+    /* border: 2px solid black; */
+
+}
