@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-  }
+}
+
 .foto {
     weight: 600px;
     height: 300px;
@@ -8,8 +9,19 @@
 .hello {
     display: none;
 }
-.form_registration {
-    
-    /* border: 2px solid black; */
+body {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
 
+form {
+    background-color: lightblue;
+    border: 2px solid black;
+    
+}
+.body_form {
+    padding: 20px;
 }

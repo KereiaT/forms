@@ -11,18 +11,18 @@
     <main>
       <div class="form">
         <form action="form.php" name="registration">
-            <fieldset>
+            <div class="body_form">
             <legent>Create an account</legent>
             <p>
-               <label for="email">Email (required)</label><br/>
-               <input type="email" id="email" name="email"><br/>
+               <label for="email">Email<span class="star" title="required">*</span></label><br/>
+               <input type="email" id="email" name="email" required><br/>
             </p>
             <p>
-               <label for="password">Password (required)</label><br/>
-               <input type="password" id="password" name="password"><br/>
+               <label for="password">Password<span class="star" title="required">*</span></label><br/>
+               <input type="password" id="password" name="password" required><br/>
             </p>
             <input type="submit">
-             </fieldset>
+        </div>
         </form>
       </div>
       <div class="hello">
