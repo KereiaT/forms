@@ -9,25 +9,46 @@
   </head>
   <body>
     <main>
-      <div class="form">
+      <h1>Examples different form HTML</h1>
+      <p>First simple form with tag input as a button</p>
+      <div class="first_form">
         <form action="form.php" name="registration">
-            <div class="body_form">
+            <div class="container_first_form">
             <legent>Create an account</legent>
             <p>
                <label for="email">Email<span class="star" title="required">*</span></label><br/>
-               <input type="email" id="email" name="email" required><br/>
+               <input type="email" id="email" name="email" placeholder="example@gmail.com" required><br/>
             </p>
             <p>
                <label for="password">Password<span class="star" title="required">*</span></label><br/>
-               <input type="password" id="password" name="password" required><br/>
+               <input type="password" id="password" name="password" placeholder="********" required><br/>
             </p>
             <input type="submit">
         </div>
         </form>
       </div>
-      <div class="hello">
-        <p>Hello, user with</p>
-        <img src="/task1/assets/hello.jpeg" class="foto" />
+      <br>
+      <p>Second form with tag button and avatar image </p>
+      <div class="second_form">
+        <form action="action_page.php" name="autorisation">
+          <div class="img_container">
+            <img src="/task1/img/avatar.png" alt="Avatar" class="avatar">
+          </div>
+          <div class="container_second_form">
+            <label for="username"><b>Username</b></label>
+            <input type="text" name="username" placeholder="Enter Username" required>
+            <label for="password"><b>Password</b></label>
+            <input type="password" name="password" placeholder="Enter Password" required>
+            <button type="submit">Login</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember">Remember me
+            </label>
+          </div>
+          <div class="container_second_form">
+            <button type="button" class="canselbtn">Cancel</button>
+            <span class="forgot_password"><a href="#">Forgot password?</a></span>
+          </div>
+        </form>
       </div>
     </main>
   </body>

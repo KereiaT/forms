@@ -1,3 +1,5 @@
+/*First form*/
+
 * {
     box-sizing: border-box;
 }
@@ -18,10 +20,59 @@ body {
 }
 
 form {
-    background-color: lightblue;
-    border: 2px solid black;
+    border: 3px solid black;
     
 }
-.body_form {
+.container_first_form {
     padding: 20px;
+}
+/* Second form */
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor:pointer;
+    width: 100%;
+}
+button:hover {
+   opacity: 0.9;
+}
+.canselbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+.img_container {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+.container_second_form {
+    padding: 16px;
+}
+.forgot_password {
+    float:right;
+    padding-top: 16px;
+}
+@media screen and (max-width: 300px) {
+    .forgot_password {
+        display: block;
+        float:none;
+    }
+    .cancelbtn {
+        width:100%
+    }
 }
